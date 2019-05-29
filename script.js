@@ -25,7 +25,7 @@
     function nextSearchResults(data) {
         var resultHtml = "";
         for (var i = 0; i < data.items.length; i++) {
-            var img = "default.png";
+            var img = "assets/default.png";
             if (data.items[i].images[0]) {
                 img = data.items[i].images[0].url;
             }
